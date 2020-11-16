@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:8080/insert" method="POST" enctype="multipart/form-data" >
+        <label>Product ID</label>
+        <input type="number" name="p_id">
+        <label>Product NAME</label>
+        <input type="text" name="p_name">
+        <label>Product DESCRIPTION</label>
+        <input type="text" name="p_description">
+        <label>Product COST</label>
+        <input type="number" name="p_cost">
+        <label>Product IMAGE</label>
+        <input type="file" name="p_img">
+        <button type="submit" (click)=""></button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+mongooes 
+fetch = find()
+insert = data.save()
+update = findbyid

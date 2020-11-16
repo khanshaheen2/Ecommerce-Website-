@@ -1,0 +1,13 @@
+    <form enctype="multipart/form-data" >
+        <label>Product ID</label>
+        <input type="number" name="p_id" id="p_id">
+        <label>Product NAME</label>
+        <input type="text" name="p_name"id="p_name">
+        <label>Product DESCRIPTION</label>
+        <input type="text" name="p_description" id="p_description">
+        <label>Product COST</label>
+        <input type="number" id="p_cost">
+        <label>Product IMAGE</label>
+        <input type="file" name="p_img" (change)="selectedImage($event)">
+        <button type="submit" (click)="onSubmit()">upload</button>
+    </form>
